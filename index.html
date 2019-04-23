@@ -19,7 +19,9 @@
     <!--  Подключение веб-шрифтов  -->
     <link href="https://fonts.googleapis.com/css?family=Merriweather|PT+Sans+Caption:400,700" rel="stylesheet"> 
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    
+
+    <!--  Подключение Animate.css для анимации-->
+    <link rel="stylesheet" href="libs/animate.css/animate.css">
 
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon/favicon-16x16.png">
     
@@ -32,9 +34,9 @@ HEADER
 
 ...................................... -->
 <div class="header"> 
-    <div class="header__title">Наталья Лысак</div>
-    <div class="header__slogan">Верстка сайтов на HTML и CSS<br> HTML5 CSS3 JS jQuery</div>
-    <div class="header__arrow">
+    <div class="header__title wow fadeInUp">Наталья Лысак</div>
+    <div class="header__slogan wow fadeInUpBig">Верстка сайтов на HTML и CSS<br> HTML5 CSS3 JS jQuery</div>
+    <div class="header__arrow wow fadeInDown">
         <i class="fa fa-chevron-down" aria-hidden="true"></i>
     </div>
 </div>   
@@ -47,7 +49,7 @@ PORTFOLIO
 <div class="portfolio">
     <div class="container">
     
-      <div class="title">
+      <div class="title wow fadeInUp">
           Портфолио
       </div>
           
@@ -55,7 +57,7 @@ PORTFOLIO
           
           <!-- Работа в портфолио -->
           <div class="col-4">
-              <div class="portfolio-item">
+              <div class="portfolio-item wow fadeInUp">
                   <div class="portfolio-item__img">
                       <img src="img/portfolio/project_organica.jpg" alt="Макет Органика">
                   </div>
@@ -70,7 +72,7 @@ PORTFOLIO
 
           <!-- Работа в портфолио -->
           <div class="col-4">
-              <div class="portfolio-item">
+              <div class="portfolio-item wow fadeInUp">
                   <div class="portfolio-item__img">
                       <img src="img/portfolio/project_apollo.jpg" alt="Учебный макет Аполло">
                   </div>
@@ -85,7 +87,7 @@ PORTFOLIO
 
           <!-- Работа в портфолио -->
           <div class="col-4">
-              <div class="portfolio-item">
+              <div class="portfolio-item wow fadeInUp">
                   <div class="portfolio-item__img">
                       <img src="img/portfolio/project_portfolio.jpg" alt="Личный сайт портфолио">
                   </div>
@@ -111,11 +113,11 @@ FOOTER
 <div class="footer">
     <div class="container">
         <div class="row">
-            <div class="col-4">
+            <div class="col-4 wow fadeInUp">
                 <p class="footer__name">Наталья Лысак</p>
                 <p>HTML верстка и разработка сайтов</p>
             </div>
-            <div class="col-4">
+            <div class="col-4 wow fadeInUp">
                 <p class="footer__social">Мои профили в социальных сетях:</p>
                 <p class="footer__social-icons">
                    
@@ -141,7 +143,7 @@ FOOTER
                     
                 </p>
             </div>
-            <div class="col-4">
+            <div class="col-4 wow fadeInUp">
                 <div><a href="#" class="button" target="_blank">связаться Вконтакте</a></div>
                 <p>Напишите мне, чтобы заказать или узнать<br> стоимость верстки вашего проекта</p> 
             </div>
@@ -149,7 +151,10 @@ FOOTER
     </div>
 </div>
     
-    
+<!-- Wow.js для эффектов анимации animate.css-->
+<script src="libs/wow.js/wow.min.js"></script>
+
+<script src="js/main.js"></script>
     
 </body>
 </html>
