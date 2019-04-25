@@ -199,8 +199,27 @@ FOOTER
 <!-- VK Widget -->
 <div id="vk_community_messages"></div>
 <script type="text/javascript">
-VK.Widgets.CommunityMessages("vk_community_messages", 92555322, {expandTimeout: "15000",disableExpandChatSound: "1",tooltipButtonText: "Есть вопрос?"});
+VK.Widgets.CommunityMessages("vk_community_messages", 92555322, {expandTimeout: "10000",widgetPosition: "left",disableExpandChatSound: "1",disableButtonTooltip: "1"});
 </script>
+<script type="text/javascript" src="https://vk.com/js/api/openapi.js?160"></script>
+
+<script type="text/javascript" src="https://vk.com/js/api/openapi.js?160"></script>
+
+
+<!-- Chatra {literal} -->
+<script>
+  (function(d, w, c) {
+      w.ChatraID = 'mpurwip5tBMGvTD8n';
+      var s = d.createElement('script');
+      w[c] = w[c] || function() {
+          (w[c].q = w[c].q || []).push(arguments);
+      };
+      s.async = true;
+      s.src = 'https://call.chatra.io/chatra.js';
+      if (d.head) d.head.appendChild(s);
+  })(document, window, 'Chatra');
+</script>
+<!-- /Chatra {/literal} -->
     
 </body>
 </html>

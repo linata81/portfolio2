@@ -363,6 +363,13 @@ p.footer__social-icons a:hover {
     }
 }
 
+/* При ширине экрана в 320px и менее - будет выполнен медиа запрос */
+@media (max-width: 320px) {
+    div#vk_community_messages {
+      display: none;
+  }
+}
+
 
 
 
