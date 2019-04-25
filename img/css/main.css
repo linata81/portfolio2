@@ -439,6 +439,12 @@ p.footer__social-icons a:hover {
       margin: 50px 30px;
     }
 
+    .button-back {
+      font-size: 25px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+
     .footer {
         padding-top: 70px;
         padding-bottom: 60px;
@@ -448,14 +454,6 @@ p.footer__social-icons a:hover {
     .fonts_cnt_css {
       font-size: 20px;
     }
-}
-
-/* При ширине экрана в 759px и менее - будет выполнен медиа запрос */
-@media (max-width: 759px) {
-  .contact_form {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
 }
 
 /* При ширине экрана в 320px и менее - будет выполнен медиа запрос */
